@@ -5,14 +5,14 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 50, 51, 51, 51 ]
+			"tyrePressure": [ 52, 52, 49, 51 ]
 		},
 		"alignment":
 		{
 			"camber": [ 0, 0, 0, 0 ],
-			"toe": [ 8, 8, 8, 8 ],
-			"staticCamber": [ -4.1223459243774414, -4.1216802597045898, -2.3372328281402588, -2.3372321128845215 ],
-			"toeOutLinear": [ 0.0002567337651271373, 0.00025673379423096776, 0.00010444656800245866, 0.00010445333464303985 ],
+			"toe": [ 6, 6, 10, 10 ],
+			"staticCamber": [ -4.1253938674926758, -4.1253938674926758, -2.2212555408477783, -2.2199110984802246 ],
+			"toeOutLinear": [ 0.00029938379884697497, 0.00029938374063931406, 8.4899824287276715e-05, 8.4883322415407747e-05 ],
 			"casterLF": 27,
 			"casterRF": 27,
 			"steerRatio": 3
@@ -39,7 +39,7 @@
 					"tyres":
 					{
 						"tyreCompound": 0,
-						"tyrePressure": [ 50, 51, 51, 51 ]
+						"tyrePressure": [ 52, 52, 49, 51 ]
 					},
 					"tyreSet": 2,
 					"frontBrakePadCompound": 1,
@@ -53,33 +53,33 @@
 	{
 		"mechanicalBalance":
 		{
-			"aRBFront": 6,
-			"aRBRear": 4,
-			"wheelRate": [ 2, 2, 2, 2 ],
-			"bumpStopRateUp": [ 5, 5, 4, 4 ],
+			"aRBFront": 4,
+			"aRBRear": 3,
+			"wheelRate": [ 2, 2, 3, 3 ],
+			"bumpStopRateUp": [ 6, 6, 4, 4 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 10, 10, 25, 25 ],
+			"bumpStopWindow": [ 8, 8, 35, 35 ],
 			"brakeTorque": 20,
-			"brakeBias": 10
+			"brakeBias": 14
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 22, 22, 20, 20 ],
+			"bumpSlow": [ 20, 20, 24, 24 ],
 			"bumpFast": [ 22, 22, 20, 20 ],
-			"reboundSlow": [ 20, 20, 23, 23 ],
-			"reboundFast": [ 34, 34, 28, 28 ]
+			"reboundSlow": [ 20, 20, 22, 22 ],
+			"reboundFast": [ 34, 34, 30, 30 ]
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 0, 11, 7, 18 ],
-			"rodLength": [ 22.346473693847656, 22.346473693847656, 1.6997995376586914, 1.6997995376586914 ],
+			"rideHeight": [ 0, 11, 5, 18 ],
+			"rodLength": [ 22.325366973876953, 22.325366973876953, -2.8493523597717285, -2.8493523597717285 ],
 			"splitter": 0,
-			"rearWing": 6,
+			"rearWing": 4,
 			"brakeDuct": [ 3, 2 ]
 		},
 		"drivetrain":
 		{
-			"preload": 12
+			"preload": 8
 		}
 	},
 	"trackBopType": 33
